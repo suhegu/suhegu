@@ -28,3 +28,8 @@ Entrepeneur of my Plants and Seeds E-commerce.
  | clear  |Limpiar la terminal                |
  | alias  |Listar los alias                   |
 
+# Estos son mis alias mas usados
+
+```zsh
+    mostused='history | awk '\''{print $2}'\'' | sort | uniq -c | sort -nr | head -n 10' 
+```
